@@ -1,0 +1,19 @@
+{
+	"name": "grunt-analyze-es6-modules",
+	"version": "0.5.0",
+	"description": "Grunt plugin for analyze-es6-modules.",
+	"keywords": ["es6", "modules", "es6 modules", "analyze-es6-modules"],
+	"license": "MIT",
+	"author": {
+		"name": "Gordon Kristan"
+	},
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sproutsocial/grunt-analyze-es6-modules"
+	},
+	"dependencies": {
+		"analyze-es6-modules": "0.5.0",
+		"chalk": "1.1.1"
+	}
+}
