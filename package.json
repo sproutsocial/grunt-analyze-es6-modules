@@ -1,6 +1,6 @@
 {
 	"name": "grunt-analyze-es6-modules",
-	"version": "0.6.1",
+	"version": "0.6.2",
 	"description": "Grunt plugin for analyze-es6-modules.",
 	"keywords": ["es6", "modules", "es6 modules", "analyze-es6-modules"],
 	"license": "MIT",

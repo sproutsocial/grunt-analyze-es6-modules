@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 		try {
 			gruntAnalyzeModules(this.data, callback);
 		} catch (error) {
-			grunt.log.error(error && error.stack);
+			grunt.log.error(error);
 			callback(false);
 		}
 	});
@@ -22,11 +22,11 @@ module.exports = function(grunt) {
 
 			callback(processResults(config, result));
 		}, function(error) {
-			grunt.log.error(error && error.stack);
+			grunt.log.error(error);
 			callback(false);
 		}).then(undefined, function(error) {
 			grunt.log.error('An error occurred while running the analyze-es6-modules task.');
-			grunt.verbose.error(error && error.stack);
+			grunt.verbose.error(error);
 			callback(false);
 		});
 	}
